@@ -1,0 +1,33 @@
+gsap.to(".bounce",{
+    y:200,
+    duration:1.5,
+    delay:1,
+    yoyo:true,
+    repeat:-1,
+    ease:"bounce.out"
+})
+
+gsap.to(".elastic",{
+    y:200,
+    duration:1,
+    delay:1,
+    yoyo:true,
+    repeat:-1,
+    ease:"elastic.out"
+})
+gsap.to(".expo",{
+    y:200,
+    duration:1,
+    delay:1,
+    yoyo:true,
+    repeat:-1,
+    ease:"expo.out"
+})
+gsap.to(".power",{
+    y:200,
+    duration:1,
+    delay:1,
+    yoyo:true,
+    repeat:-1,
+    ease:"power.out"
+})

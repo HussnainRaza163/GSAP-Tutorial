@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: "Anton", sans-serif;
+   
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.btn{
+    font-family: "Anton", sans-serif;
+    background-color: #fff;
+    text-transform: uppercase;
+    border:none;
+    padding: 9px 10px;
+    color: #0a0a0a;
+}
+#page{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 55%;
+    margin-inline: auto;
+    
+}
+#page h1{
+       font-family: "Anton", sans-serif;
+    color: #fff;
+    font-size: 180px;
+    text-align: center;
+    line-height: 180px;
+    text-transform: uppercase;
+    padding: 100px;
+}
